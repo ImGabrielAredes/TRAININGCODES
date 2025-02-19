@@ -6,13 +6,24 @@ int main()
     //declaração das variáveis
 
     int ID;
-    char NM;
+    char NM[20];
 
     printf("Escreva o nome do usuario : ");
-    scanf("%c",&NM);
+    scanf("%s",NM);
 
-    printf("Escreva a idade do usuário :");
+    printf("Escreva a idade do usuario :");
     scanf("%d",&ID);
-    
+
+    //maioridade verificação
+
+    if (ID >= 18){
+        printf("O usuario e maior de idade");
+}
+    else if (ID < 18)
+    {
+        printf ("O usuario e menor de idade");
+
+        return 0;
+    }
 
 }
