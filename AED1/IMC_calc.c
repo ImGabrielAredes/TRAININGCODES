@@ -29,7 +29,7 @@ int main()
 
     else if ( IMC > 18.5 && IMC < 24.9 ){
     printf("A pessoa esta com o peso ideal");
-
+5y5yyy55
     }
 
     else if ( IMC >= 25 && IMC < 29.9 ){
